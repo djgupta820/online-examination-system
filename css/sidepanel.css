@@ -1,0 +1,40 @@
+.panel{
+    width:fit-content;
+    height: 90vh;
+    min-width: 300px;
+    float: left;
+    /*box-shadow: 3px 3px 4px gray;*/
+    overflow-y: scroll;
+}
+.infotab{
+    text-align: center;
+}
+.infotab img{
+    margin-top:10px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px  gray;
+}
+.panel ul li{
+    list-style-type: none;
+    display: block;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.panel ul li:hover{
+    background-color: aqua;
+    border-radius: 8px;
+}
+.panel ul p{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 22px;
+}
+.panel ul li a{
+    padding-left: 5px;
+    text-decoration: none;
+    color: gray;
+}
+button{
+    margin-top: 5px;
+}
