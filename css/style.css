@@ -1,3 +1,51 @@
+.btnc{
+    padding:16px 48px;
+    background-color: none;
+    border: 2px solid #131313;
+    color: #131313;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btnc:hover{
+    box-shadow: 0 0 0 5px #fff, 0 0 0 10px #ff7a00;
+    border: 2px solid #ff7a00;
+    transform: scale(0.9);
+    color: #ff7a00;
+}
+.back{
+    padding: 14px 35px;
+    background: none;
+    border: 2px solid #131313;
+    color: #131313;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+    max-width: 200px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.back::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.4);
+    top: 50%;
+    transform: skew(30deg) translate(-150%, -50%);
+    transition: all 0.5s;
+}
+.back:hover{
+    background-color: #ff7a00;
+    color: #fff;
+}
+.back:hover::before{
+    transform: skew(30deg) translate(150%, -50%);
+    transition-delay: 0.1s;
+}
+/*===================================================================================*/
 .top{
     height: 60px;
     background-color: rgb(0, 0, 0);
@@ -22,17 +70,17 @@
 }
 
 .main{
-    margin-left: 20px;
+    margin-left: 310px;
+    margin-top: 5px;
     border: 1px solid gray;
     border-radius: 8px;
     box-shadow: 3px 3px 3px gray;
     min-height: 400px;
-    max-height: 400px;
-    padding: 30px;
-    background-color: rgb(232, 232, 240);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.856);
     float: left;
-    width: 75%;
-    height:60%;
+    width: 77%;
+    height:70vh;
     overflow-x: scroll;
     overflow-y: scroll;
 }
@@ -48,6 +96,21 @@
     background-color: black;
     /*box-shadow: 3px 3px 3px white;*/
 }
+.all{
+    margin-top:10px;
+    margin-left: 310px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px gray;
+    height: 60vh;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    width: 75%;
+    height:70vh;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
 .box{
     min-width: 100px;
     max-width: 200px;
@@ -58,7 +121,7 @@
     border-radius: 8px;
     text-align: center;
     float: left;
-    background-color: rgb(24, 169, 212);
+    background-color: #ff7a00;
 }
 
 .bosco{
@@ -110,22 +173,7 @@
     padding: 10px;
     width: fit-content;
 }
-.all{
-    margin-top:10px;
-    margin-left: 20px;
-    border: 1px solid gray;
-    border-radius: 8px;
-    box-shadow: 3px 3px 3px gray;
-    min-height: 400px;
-    max-height: 90vh;
-    padding: 5px;
-    background-color: rgb(232, 232, 240);
-    float: left;
-    width: 75%;
-    height:100vh;
-    overflow-x: scroll;
-    overflow-y: scroll;
-}
+
 .bttm{
     margin: 10px;
 }

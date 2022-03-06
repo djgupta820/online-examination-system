@@ -8,7 +8,7 @@
             <!-- CSS only -->
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
             <script type="text/javascript", src="script/script.js"></script>
-            <title>Document</title>
+            <title>Login</title>
         </head>
         <body>
             <div class="bosco">
@@ -24,7 +24,7 @@
                     <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
                     <label for="floatingPassword">Password</label>
                 </div>
-                <button type="button" class="btn btn-outline-primary">Login</button>
+                <button type="button" class="btnc">Login</button>
             </form>
         </body>
     </html>

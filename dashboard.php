@@ -15,8 +15,8 @@
         include("header.php");
         include("sidepanel.php") ;
     ?>
-    <div style="margin-left:20px;"> <h1>Home</h1> </div>
     <div class="main">
+    <h1>Home</h1>
         <a href="courses.php"> <div class="box"> <img src="img/graduation.png" alt=""> Courses </div> </a>
         <a href="previous-exams.php"> <div class="box"> <img src="img/arrow.png" alt=""> Previous Exams </div> </a>
         <a href="schedule-exam.php"> <div class="box"> <img src="img/test.png" alt=""> Schedule Exam </div> </a>

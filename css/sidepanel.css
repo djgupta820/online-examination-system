@@ -5,6 +5,7 @@
     float: left;
     /*box-shadow: 3px 3px 4px gray;*/
     overflow-y: scroll;
+    position: fixed;
 }
 .infotab{
     text-align: center;
@@ -20,10 +21,6 @@
     text-align: left;
     padding-top: 5px;
     padding-bottom: 5px;
-}
-.panel ul li:hover{
-    background-color: aqua;
-    border-radius: 8px;
 }
 .panel ul p{
     text-transform: capitalize;

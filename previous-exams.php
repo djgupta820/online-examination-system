@@ -15,9 +15,10 @@
         include("header.php");
         include("sidepanel.php");
     ?>
-    <h1>Previous Exams</h1>
+
     <div class="all"> 
-        <table class="table table-hover table-dark">
+    <h1>Previous Exams</h1>
+    <table class="table table-hover table-dark">
             <thead>
                 <tr>
                 <th scope="col">S. No.</th>
