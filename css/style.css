@@ -14,7 +14,7 @@
     color: #ff7a00;
 }
 .back{
-    padding: 14px 35px;
+    padding: 5px 15px;
     background: none;
     border: 2px solid #131313;
     color: #131313;
@@ -80,7 +80,7 @@
     background-color: rgba(255, 255, 255, 0.856);
     float: left;
     width: 77%;
-    height:70vh;
+    height:89vh;
     overflow-x: scroll;
     overflow-y: scroll;
 }
@@ -102,12 +102,11 @@
     border: 1px solid gray;
     border-radius: 8px;
     box-shadow: 3px 3px 3px gray;
-    height: 60vh;
     padding: 5px;
     background-color: rgb(255, 255, 255);
     float: left;
-    width: 75%;
-    height:70vh;
+    width: 77%;
+    height:88vh;
     overflow-x: scroll;
     overflow-y: scroll;
 }
@@ -161,6 +160,7 @@
     padding: 20px;
     width:50vw;
     text-align: center;
+    margin-top:20px;
     margin-left: 20%;
     box-shadow: 4px 4px 4px gray;
 }
@@ -173,7 +173,6 @@
     padding: 10px;
     width: fit-content;
 }
-
-.bttm{
-    margin: 10px;
+.quesp{
+    margin-top: 20px;
 }

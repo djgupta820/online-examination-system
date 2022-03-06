@@ -13,9 +13,9 @@
         include("header.php");
         include("sidepanel.php");
     ?>
-    <h1>Profile</h1>
+    
     <div class="profile">
-        
+    <h1>Profile</h1>
         <div class="ppic">
             <img src="img/user.png" alt="profile picture">
         </div>
